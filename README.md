@@ -314,6 +314,20 @@ See [docs/architecture.md](docs/architecture.md) for detailed documentation.
 
 <!-- showcase:start -->
 
+## Research Report
+
+**Productivity Analytics on a Multi-User Task Management System**
+
+_An empirical study of Kanban work-in-progress and cycle-time distributions on a 240,000-task synthetic corpus_
+
+A self-contained research-grade report (Abstract, Introduction, Research Problem, Research Questions, Literature Review, Research Method, Data Description, Analysis, Discussion, Conclusion, Future Work, References) is published with this repository.
+
+[Read the full report (PDF)](docs/research_report.pdf)
+
+**Keywords:** Kanban, productivity analytics, Little's Law, cycle time, full-stack
+
+![Research metrics](docs/research_metrics.png)
+
 ## Architecture
 
 ```mermaid
