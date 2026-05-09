@@ -1,0 +1,6 @@
+flowchart LR
+    Client[React Client] -->|REST| API[Express API]
+    API --> Store[Task Store]
+    Store --> Persist[(JSON Persistence)]
+    API --> Stats[Productivity Stats]
+    Client --> Kanban[Kanban Board]

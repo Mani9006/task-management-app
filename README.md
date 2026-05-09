@@ -309,3 +309,36 @@ See [docs/architecture.md](docs/architecture.md) for detailed documentation.
 ---
 
 <p align="center">Built with care for productive developers everywhere.</p>
+
+---
+
+<!-- showcase:start -->
+
+## Architecture
+
+```mermaid
+flowchart LR
+    Client[React Client] -->|REST| API[Express API]
+    API --> Store[Task Store]
+    Store --> Persist[(JSON Persistence)]
+    API --> Stats[Productivity Stats]
+    Client --> Kanban[Kanban Board]
+```
+
+## Test Results
+
+![Test results](docs/test_results.png)
+
+**89 passing**, **0 failing**, **2 skipped** (total 91, framework: Jest)
+
+## References & Further Reading
+
+- Anderson, D. J. (2010). *Kanban: Successful Evolutionary Change for Your Technology Business.* Blue Hole Press.
+
+## Author
+
+**Manikanta Reddy Mandadhi** — Senior Data Scientist (RAG / Agentic AI)
+
+GitHub: [@Mani9006](https://github.com/Mani9006/task-management-app) · LinkedIn: [reddy1999](https://www.linkedin.com/in/reddy1999) · Portfolio: [manikantabio.com](https://www.manikantabio.com)
+
+<!-- showcase:end -->
